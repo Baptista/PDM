@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Yamba</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="statusupdate">Actualizar Estado</string>
+    <string name="message">Escrever mensagem to twitter</string>
+    <string name="updatestatus">Estado para actualizar</string>
+    <string name="timeline">TimeLine</string>
+    <string name="details">Detalhes</string>
+    <string name="timeline_activity">TimeLine</string>
+    <string name="update_timeline">Actualizar Timeline</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="server">Escrever URL do servidor</string>
+    <string name="preference">Preferencias</string>
+    <string name="summary_username">Escrever username</string>
+    <string name="summary_password">Escrever password</string>
+    <string name="characteres">Caracteres</string>
+    <string name="summary_characteres">Número de caracteres por mensagem</string>
+    <string name="nmessages">Número de Messagem</string>
+    <string name="summary_nmessage">Número de messagens mostradas</string>
+    <string name="numbermessages">numeromensagens</string>
+    <string name="numbercharacteres">Numerocaracteres</string>
+    <string name="titleMenuStatus">Status</string>
+    <string name="titleMenuTimeline">Timeline</string>
+    <string name="titleMenuPreferences">Preferences</string>
+    <string name="StatusTitle">Introduza o texto a enviar:</string>
+    <string name="StatusButton">Submeter</string>
+    <string name="canceled_progress">Cancelado</string>
+    <string name="submitting_progress">A submeter</string>
+    <string name="no_value"></string>
+    <string name="done_progress">Submetido com sucesso</string>
+    <string name="status">StatusActivity</string>
+    <string name="user_info">Info Utilizador</string>
+    <string name="btnEmail">Enviar por e-mail</string>
+    <string name="subjectEmailClient" formatted="false">Mensagem adicionada no Yamba por %s @ %s</string>
+    <string name="chooseEmailClient">Escolha um cliente de e-mail:</string>
+</resources>

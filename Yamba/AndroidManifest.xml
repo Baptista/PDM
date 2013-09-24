@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="deetc.pdm.yamba"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ 	<uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+ 	    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+        <!--
+        <provider android:name="deetc.pdm.yamba.StatusProvider"
+            android:authorities="yamba.statusprovider"
+            android:process="true"
+        />
+        -->
+        <activity
+            android:name="deetc.pdm.yamba.TimeLineActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="Broadcastthis"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="deetc.pdm.yamba.DetailsActivity"></activity>
+        <activity android:name="deetc.pdm.yamba.PrefsActivity">  </activity>
+        <activity android:name="deetc.pdm.yamba.StatusActivity"></activity>
+        <activity android:name="deetc.pdm.yamba.UserInfoActivity"></activity>
+        
+        
+        <service android:name=".UserInfoPull" />
+        <service android:name=".StatusUpload"/>
+        <service android:name="deetc.pdm.yamba.TimelinePull"/>
+               
+    </application>
+</manifest>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:key="username" android:title="@string/username" android:summary="@string/summary_username"/>
+    <EditTextPreference android:password="true" android:key="password" android:title="@string/password" android:summary="@string/summary_password" />
+    <EditTextPreference android:key="server" android:title="@string/server"/>
+    <EditTextPreference android:inputType="number" android:key="@string/numbercharacteres" android:title="@string/characteres" android:summary="@string/summary_characteres" android:defaultValue="140"/>
+    <EditTextPreference android:inputType="number" android:key="@string/numbermessages" android:title="@string/nmessages" android:summary="@string/summary_nmessage" android:defaultValue="10"/>
+    <CheckBoxPreference android:key="@string/keycheckboxauto" android:title="@string/autoupdate"/>
+    <EditTextPreference android:key="@string/keytimeupdate" android:title="@string/timeperiodicallyupdate"/>
+    <EditTextPreference android:key="@string/key_localmessages" android:title="@string/numberoflocalmessages"/>
+    
+
+</PreferenceScreen>

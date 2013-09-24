@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StatusActivity" >
+
+    <TextView
+        android:id="@+id/txtStatuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/StatusTitle" />
+
+    <EditText
+        android:id="@+id/tbStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtStatuTitle"
+        android:layout_below="@+id/txtStatuTitle"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLength="140" >
+		
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/StatusButton" />
+
+    <TextView
+        android:id="@+id/txtCharCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tbStatus"
+        android:layout_below="@+id/tbStatus"
+        android:textIsSelectable="true"
+        />
+
+    <TextView
+        android:id="@+id/StatusProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tbStatus"
+        android:layout_below="@+id/txtCharCount"
+        android:text="@string/no_value" />
+
+</RelativeLayout>
