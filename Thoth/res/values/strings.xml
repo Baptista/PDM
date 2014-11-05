@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thoth</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lectivesemester">LectiveSemester</string>
+    <string name="courseunit">Courseunit</string>
+    <string name="prefs_semester">Prefs_Semester</string>
+    <string name="prefs_courses">Prefs_Courses</string>
+    <string name="multiplechoose">MultipleChoose</string>
+    <string-array name="empty_array">
+         <!-- <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>-->
+        <item>Mars</item>
+        
+    </string-array>        
+     <string-array name="emptyvalues_array">
+        <!--   <item>aMercury</item>
+        <item>aVenus</item>
+        <item>aEarth</item>-->
+        <item>aMars</item> 
+         
+     </string-array>
+        <string name="thoth">Thoth</string>
+        <string name="courses">Courses</string>
+  
+
+</resources>

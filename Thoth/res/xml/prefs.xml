@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        <EditTextPreference android:key="@string/prefs_semester" android:title="definicoes"/>
+        <MultiSelectListPreference android:title="Multiplas Turmas" android:key="@string/multiplechoose" android:entryValues="@array/emptyvalues_array" android:entries="@array/empty_array"
+            
+            />
+    </PreferenceScreen>
